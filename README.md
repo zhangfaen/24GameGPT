@@ -12,6 +12,9 @@ Language modeling (LM) refers to the use of statistical and probabilistic techni
 
 In this repository ([24GameGPT](https://github.com/zhangfaen/24GameGPT)), I have trained a GPT model specifically to solve the 24 Game.
 
+A running demo:
+![24-game-play-ground-demo](24-game-play-ground-demo.png)
+
 **Note: This repo is for education purpose. The code is not performance optimized and maybe buggy. For those who want to learn Transformer and GPT LM. I recommend to use 'pdb' to follow any code that you are interested in.**
 
 ## Some Background Information about the 24 Game
