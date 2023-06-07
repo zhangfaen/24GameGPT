@@ -61,7 +61,7 @@ if __name__ == '__main__':
     random.shuffle(all_valid_data_list)
     max_seq_len = max([len(a) for a in all_valid_data_list])
     all_valid_data_list = [a.ljust(max_seq_len, ' ') for a in all_valid_data_list]
-    with open(os.path.dirname(os.path.realpath(__file__)) + "/24_game_all_data_new.txt", "w") as f:
+    with open(os.path.dirname(os.path.realpath(__file__)) + "/24_game_all_data.txt", "w") as f:
         f.write('\n'.join(all_valid_data_list))
 
     print("totally " + str(len(all_valid_data_list)) + " lines wrote!")
