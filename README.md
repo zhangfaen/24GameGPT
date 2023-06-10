@@ -1,21 +1,25 @@
 # GPT (Generative Pre-trained Transformer) for the 24 Game
 
-![24 Game](24-game.png)
+![24 Game](img/24-game.png)
 
 ## GPT (Generative Pre-trained Transformer) and Language Model
 -------
 This repository contains a PyTorch implementation of GPT, which includes both training and inference. GPT is a relatively simple model, as described in the `model.py` file. It takes a sequence of indices as input, applies a Transformer model (as described in the [Transformer paper](https://arxiv.org/abs/1706.03762)), and generates a probability distribution over the next index in the sequence.
 
-<center><img src="transformer.jpg" width="300" /></center>
+<center><img src="img/transformer.jpg" width="300" /></center>
 
 Language modeling (LM) refers to the use of statistical and probabilistic techniques to determine the likelihood of a specific sequence of words occurring in a sentence. LM is often used for text generation tasks. The well-known ChatGPT, for example, takes a prompt as input and generates text to complete that prompt.
 
 In this repository ([24GameGPT](https://github.com/zhangfaen/24GameGPT)), I have trained a GPT model specifically to solve the 24 Game.
 
 A running demo:
-![24-game-play-ground-demo](24-game-play-ground-demo.png)
+![24-game-play-ground-demo](img/24-game-play-ground-demo.png)
 
 **Note: This repo is for education purpose. The code is not performance optimized and maybe buggy. For those who want to learn Transformer and GPT LM. I recommend to use 'pdb' to follow any code that you are interested in.**
+
+## 
+欢迎关注我的微信订阅号"后向传播"： ![后向传播](img/back_propogation_fze.jpeg). <br/>
+这篇文章对应的订阅号链接：[从0训练一个生成式语言模型（GPT-LM）解24点游戏：ChatGPT背后的生成式语言大模型玩票级实现](https://mp.weixin.qq.com/s/OxvYXXYYbZq-WmgDRNgHYw)
 
 ## Some Background Information about the 24 Game
 -------
